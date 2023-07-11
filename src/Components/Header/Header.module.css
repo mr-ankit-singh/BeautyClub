@@ -1,0 +1,54 @@
+.container{
+    padding: 1rem;
+    display: flex;
+    z-index: 100;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+}
+
+.logo>img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.logo>span{
+    font-weight: 800;
+    font-size: large;
+}
+
+.right{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    font-weight: 500;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.menu ul>li:hover{
+    color:#fe956f;
+    cursor: pointer;
+}
+.search{
+    width: 7rem;
+    outline: none;
+    border: none;
+    height: 30%;
+    border-radius: 5px;
+    padding: 3.5px 8px;
+}
+
+.cart{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
